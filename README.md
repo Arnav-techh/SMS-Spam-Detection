@@ -7,11 +7,16 @@ The SMS Spam Detection project is a machine learning initiative designed to clas
 **Technology Used**
 
 The project utilizes several key technologies and libraries, including:
-Python: The primary programming language used for developing the machine learning model and handling data processing tasks.
-Scikit-learn: A powerful library for machine learning in Python, which provides various tools for model building, evaluation, and selection.
-Pandas: A data manipulation and analysis library that simplifies data handling and preprocessing tasks.
-NumPy: A library for numerical computing in Python, which is essential for handling arrays and performing mathematical operations.
-Streamlit: A framework for building web applications quickly and easily, enabling the deployment of the machine learning model in a user-friendly interface.
+
+*Python: The primary programming language used for developing the machine learning model and handling data processing tasks.
+
+*Scikit-learn: A powerful library for machine learning in Python, which provides various tools for model building, evaluation, and selection.
+
+*Pandas: A data manipulation and analysis library that simplifies data handling and preprocessing tasks.
+
+*NumPy: A library for numerical computing in Python, which is essential for handling arrays and performing mathematical operations.
+
+*Streamlit: A framework for building web applications quickly and easily, enabling the deployment of the machine learning model in a user-friendly interface.
 
 **Features**
 
