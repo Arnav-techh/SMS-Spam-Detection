@@ -1,9 +1,11 @@
 # SMS-Spam-Classifier
 
 **Overview**
+
 The SMS Spam Detection project is a machine learning initiative designed to classify SMS messages as either spam or not spam. This model leverages advanced algorithms to analyze the content of text messages and make predictions about their nature. Developed using the Python programming language, the model is not only capable of performing accurate classifications but is also deployed on the web through Streamlit, allowing users to interact with it easily.
 
 **Technology Used**
+
 The project utilizes several key technologies and libraries, including:
 Python: The primary programming language used for developing the machine learning model and handling data processing tasks.
 Scikit-learn: A powerful library for machine learning in Python, which provides various tools for model building, evaluation, and selection.
@@ -12,17 +14,21 @@ NumPy: A library for numerical computing in Python, which is essential for handl
 Streamlit: A framework for building web applications quickly and easily, enabling the deployment of the machine learning model in a user-friendly interface.
 
 **Features**
+
 The SMS Spam Detection project encompasses several important features, including:
-Data Collection: Gathering relevant data for training and testing the model.
+*Data Collection: Gathering relevant data for training and testing the model.
+
 Data Cleaning and Preprocessing: Preparing the data for analysis by removing inconsistencies and formatting issues.
 Exploratory Data Analysis (EDA): Analyzing the dataset to uncover patterns and insights.
 Model Building and Selection: Developing various machine learning models and selecting the best-performing one.
 Web Deployment: Making the model accessible to users through a web interface using Streamlit.
 
 **Data Collection**
+
 For this project, the SMS Spam Collection dataset was sourced from Kaggle, a popular platform for data science and machine learning resources. This dataset contains over 5,500 SMS messages, each labeled as either spam or not spam. The availability of such a labeled dataset is crucial for training the model effectively, as it allows the algorithm to learn from examples and improve its predictive capabilities.
 
 **Data Cleaning and Preprocessing**
+
 Data cleaning is a critical step in preparing the dataset for analysis. In this project, the data was meticulously cleaned to handle any null values and duplicate entries that could skew the results. Additionally, the "type" column, which indicates whether a message is spam or not, was label-encoded to convert categorical labels into a numerical format suitable for machine learning algorithms.
 
 Following the cleaning process, the data underwent preprocessing. This involved several steps, including:
@@ -34,6 +40,7 @@ Stemming: Reducing words to their root form to ensure that variations of a word 
 Lowercasing: Converting all text to lowercase to maintain consistency and avoid treating the same word in different cases as distinct.
 
 **Exploratory Data Analysis**
+
 Exploratory Data Analysis (EDA) was conducted to gain deeper insights into the dataset. This phase involved calculating various metrics, such as the count of characters, words, and sentences for each message. Additionally, the correlation between different variables was analyzed to identify any relationships that could inform the model-building process.
 
 To visualize the findings, several graphical representations were created, including:
