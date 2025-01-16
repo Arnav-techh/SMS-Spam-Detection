@@ -1,24 +1,21 @@
-# SaaS Website Builder
+# SMS Spam Detection
 
-## Description
-The **SaaS Website Builder** is a cloud-based solution designed to simplify the website creation process for users without technical skills. It enables users to build, customize, and publish websites through an intuitive drag-and-drop interface. This project addresses the need for affordable, accessible, and flexible website creation tools, allowing small businesses and individuals to establish an online presence with ease.
+## Overview
+The **SMS Spam Detection** project is a machine learning initiative that classifies SMS messages as spam or not spam. Developed in Python, this model utilizes advanced algorithms to analyze text content and make accurate predictions. It is deployed on the web using Streamlit, providing an interactive user interface for easy access.
+
+## Technology Used
+- **Python**: Main programming language for model development and data processing.
+- **Scikit-learn**: Library for building and evaluating machine learning models.
+- **Pandas**: Data manipulation and analysis library.
+- **NumPy**: Library for numerical computing.
+- **Streamlit**: Framework for building web applications.
 
 ## Features
-- **User -Friendly Interface**: Intuitive drag-and-drop functionality for easy website creation.
-- **Customizable Templates**: Pre-designed, responsive templates that can be tailored to user needs.
-- **Real-Time Editing**: Instant preview of changes made during the website building process.
-- **Mobile Responsiveness**: All templates are optimized for mobile devices.
-- **SEO Tools**: Basic SEO options to enhance website visibility.
-- **Analytics**: Insights into website traffic and user engagement.
+- **Data Collection**: Utilizes the SMS Spam Collection dataset from Kaggle.
+- **Data Cleaning and Preprocessing**: Handles null values, duplicates, and formats data for analysis.
+- **Exploratory Data Analysis (EDA)**: Analyzes dataset patterns and visualizes insights.
+- **Model Building and Selection**: Tests various algorithms to find the best performer.
+- **Web Deployment**: Accessible web interface for users to classify SMS messages.
 
-## Technologies Used
-- **Frontend**: React.js, HTML5, CSS3, JavaScript (ES6)
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Cloud Hosting**: AWS (Amazon Web Services)
-- **Design Tools**: Figma for UI/UX design
-
-## Usage
-- **Sign Up**: Create an account using your email or social media.
-- **Create a Website**: Select a template and use the drag-and-drop editor to customize your site.
-- **Publish**: Once satisfied with your design, publish your website directly from the platform.
+## Conclusion
+The SMS Spam Detection project demonstrates the complete machine learning pipeline, from data collection to web deployment. It showcases the potential of machine learning in practical applications, providing a robust solution for SMS classification.
